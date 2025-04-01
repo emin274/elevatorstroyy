@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0a2418;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0d3b24;
+    padding: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.about, .gallery, .contact {
+    padding: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.gallery-container img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #062012;
+    padding: 10px;
+    margin-top: 20px;
+}
